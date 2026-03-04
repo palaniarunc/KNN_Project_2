@@ -95,13 +95,12 @@ plt.annotate(f"Best k: {best_k}\nR^2: {best_r2:.4f}", (best_k, best_r2), textcoo
 
 
 #Actual vs predicted Salary
-#Graph needs title
 
 sorted_x = np.argsort(y_test)
 sorted_y_test = y_test.values[sorted_x]
 sorted_y_pred = y_pred[sorted_x]
 plt.figure(figsize=(10,6))
-plt.xlabel("Test Case Number")
+plt.xlabel("Test Sample Index")
 plt.ylabel("Salary in $")
 plt.title("Comparsion of Actual and Predicted Salaries")
 
@@ -111,5 +110,16 @@ plt.plot(sorted_y_pred, label = "Predicted Salary", color = "orange")
 plt.legend()
 
 
+
+
+#Residual Plot
+residuals = y_test - best_pred
+plt.figure(figsize=(10,6))
+plt.xlabel("Predicted Salary")
+plt.ylabel("Residuals(Actual - Predeicted)")
+plt.title("Residual Plot for salary prediction")
+
+plt.scatter(best_pred, residuals)
+plt.axhline(0, linestyle="--")
 
 plt.show()
