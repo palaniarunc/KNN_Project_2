@@ -5,10 +5,13 @@ from sklearn.neighbors import KNeighborsRegressor
 from sklearn.metrics import r2_score, mean_absolute_error
 from sklearn.pipeline import Pipeline
 import matplotlib.pyplot as plt
+import numpy as np
 
 
 data_path = "job_placement_encoded_official.csv"
 df = pd.read_csv(data_path)
+
+df = df[df["salary"] > 0]
 
 if "salary" in df.columns:
     y = df["salary"]
@@ -88,4 +91,17 @@ plt.ylabel("R^2 Score")
 plt.title("K Value vs R^2 Score")
 plt.scatter(best_k, best_r2, color = "red", label="Best K")
 plt.annotate(f"Best k: {best_k}\nR^2: {best_r2:.4f}", (best_k, best_r2), textcoords="offset points", xytext=(0,-40), ha="center")
+
+
+
+#Actual vs predicted Salary
+sorted_x = np.argsort(y_test)
+sorted_y_test = y_test.values[sorted_x]
+sorted_y_pred = y_pred[sorted_x]
+
+plt.figure(figsize=(10,6))
+plt.plot(sorted_y_test, label = "Actual Salary", color = "blue", marker = "o")
+#might need to put index
+plt.plot(sorted_y_pred, label = "Predicted Salary", color = "orange", marker = "x")
+plt.legend()
 plt.show()
