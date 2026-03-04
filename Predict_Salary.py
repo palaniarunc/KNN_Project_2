@@ -87,13 +87,5 @@ plt.xlabel("K value")
 plt.ylabel("R^2 Score")
 plt.title("K Value vs R^2 Score")
 plt.scatter(best_k, best_r2, color = "red", label="Best K")
-# annotate the best result (only k and r2 coordinates)
-plt.annotate(
-    f"Best k: {best_k}\nR^2: {best_r2:.4f}\nBest mae: {best_mae:.4f}",
-    (best_k, best_r2),  # xy should be a 2-tuple
-    textcoords="offset points",
-    xytext=(0,-40),
-    ha="center"
-)
-
+plt.annotate(f"Best k: {best_k}\nR^2: {best_r2:.4f}", (best_k, best_r2), textcoords="offset points", xytext=(0,-40), ha="center")
 plt.show()
