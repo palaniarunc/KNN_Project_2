@@ -95,13 +95,27 @@ plt.annotate(f"Best k: {best_k}\nR^2: {best_r2:.4f}", (best_k, best_r2), textcoo
 
 
 #Actual vs predicted Salary
+#Graph needs title
+
 sorted_x = np.argsort(y_test)
 sorted_y_test = y_test.values[sorted_x]
 sorted_y_pred = y_pred[sorted_x]
 
+plt.xlabel("Test Case Number")
+plt.ylabel("Salary in $")
 plt.figure(figsize=(10,6))
-plt.plot(sorted_y_test, label = "Actual Salary", color = "blue", marker = "o")
+plt.plot(sorted_y_test, label = "Actual Salary", color = "blue")
 #might need to put index
-plt.plot(sorted_y_pred, label = "Predicted Salary", color = "orange", marker = "x")
+plt.plot(sorted_y_pred, label = "Predicted Salary", color = "orange")
 plt.legend()
+
+#Trying new graph
+plt.figure(figsize=(10,6))
+x = range(len(y_test))
+plt.scatter(x,y_test, label = "Actual Salary", color = "blue")
+plt.scatter(x,best_pred, label = "Predicted Salary", color = "orange")
+
+for i in range(len(y_test)):
+    plt.plot([i,i], [y_test.values[i], best_pred[i]])
+
 plt.show()
