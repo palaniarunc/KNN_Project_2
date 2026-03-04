@@ -1,8 +1,10 @@
 import pandas as pd
+from sklearn.discriminant_analysis import StandardScaler
 from sklearn.model_selection import train_test_split
 from sklearn.neighbors import KNeighborsRegressor
 from sklearn.metrics import r2_score, mean_absolute_error
-import matplotlib.pyplot as plt
+from sklearn.pipeline import Pipeline
+
 
 data_path = "job_placement_encoded_official.csv"
 df = pd.read_csv(data_path)
@@ -11,13 +13,64 @@ if "salary" in df.columns:
     y = df["salary"]
     print("Hi")
 
-college_col = [ c for c in df.columns if c.startwith("is_college_")]
-stream_col = [c for c in df.columsn if c.startswith("_is_")]
+college_col = [ c for c in df.columns if c.startswith("is_college_")]
+stream_col = [c for c in df.columns if c.startswith("_is_")]
 
 gpa_col = "gpa"
 
 
-feature_col = gpa_col + stream_col + college_col
+feature_col = [gpa_col] + stream_col + college_col
 
 
 X = df[feature_col]
+
+
+X_train, X_test, y_train, y_test = train_test_split(X,y,test_size=0.30, random_state=42)
+
+
+#Finding the best k from 1 -30
+k_val = range(1,31)
+r2_scores = []
+mae_scores = []
+
+best_k = None
+best_r2 = float("-inf")
+best_pipe = None
+
+
+#Scaling is below and finding the best k value
+for k in k_val:
+    pipe = Pipeline([
+        ("scaler", StandardScaler()),
+        ("knn", KNeighborsRegressor(
+            n_neighbors=k,
+            weights="distance",
+            metric="minkowski",
+            p=2
+    
+      ))  
+    ])
+
+    pipe.fit(X_train, y_train)
+    y_pred = pipe.predict(X_test)
+
+    r2 = r2_score(y_test, y_pred)
+    mae = mean_absolute_error(y_test, y_pred)
+
+    r2_scores.append(r2)
+    mae_scores.append(mae)
+
+    if r2 > best_r2:
+        best_r2 = r2
+        best_k = k
+        best_pipe = pipe
+
+print("Best model parameters are below:")
+print("Best K:", best_k)
+print("Best R2 Score:", best_r2)
+
+
+
+best_pred = best_pipe.predict(X_test)
+best_mae = mean_absolute_error(y_test, best_pred)
+print("Best Test MAE:", best_mae)
