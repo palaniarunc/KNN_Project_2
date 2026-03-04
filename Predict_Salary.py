@@ -113,13 +113,15 @@ plt.legend()
 
 
 #Residual Plot
+#NEED TO MAKE CHANGES TO THIS PLOT IN TERMS OF VISZUALIZIOTN 
 residuals = y_test - best_pred
 plt.figure(figsize=(10,6))
 plt.xlabel("Predicted Salary")
 plt.ylabel("Residuals(Actual - Predeicted)")
 plt.title("Residual Plot for salary prediction")
 
-plt.scatter(best_pred, residuals)
+plt.scatter(best_pred, residuals, s= 40, alpha=0.7)
+plt.grid(True, alpha=0.5)
 plt.axhline(0, linestyle="--")
 
 plt.show()
