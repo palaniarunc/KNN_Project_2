@@ -1,0 +1,701 @@
+gender,age,stream,college_name,placement_status,salary,gpa,years_of_experience
+Male,25,Computer Science,Harvard University,Placed,60000,3.7,2.0
+Female,24,Electrical Engineering,Massachusetts Institute of Technology,Placed,65000,3.6,1.0
+Male,26,Mechanical Engineering,Stanford University,Placed,58000,3.8,3.0
+Female,23,Information Technology,Yale University,Not Placed,0,3.5,2.0
+Male,24,Computer Science,Princeton University,Placed,62000,3.9,2.0
+Female,25,Electronics and Communication,Columbia University,Placed,63000,3.7,1.0
+Male,26,Information Technology,California Institute of Technology,Placed,59000,3.8,3.0
+Female,24,Computer Science,University of Chicago,Not Placed,0,3.6,2.0
+Male,25,Electrical Engineering,University of Pennsylvania,Placed,64000,3.7,2.0
+Female,23,Mechanical Engineering,Northwestern University,Placed,57000,3.5,1.0
+Male,24,Computer Science,Duke University,Placed,61000,3.9,2.0
+Female,25,Electronics and Communication,Johns Hopkins University,Not Placed,0,3.8,3.0
+Male,26,Information Technology,University of California--Berkeley,Placed,63000,3.7,2.0
+Female,24,Computer Science,University of Michigan--Ann Arbor,Placed,64000,3.6,1.0
+Male,23,Electrical Engineering,University of California--Los Angeles,Placed,66000,3.8,3.0
+Female,25,Mechanical Engineering,University of Virginia,Not Placed,0,3.7,2.0
+Male,26,Computer Science,University of Wisconsin--Madison,Placed,61000,3.9,2.0
+Female,24,Electronics and Communication,University of Illinois--Urbana-Champaign,Placed,62000,3.8,1.0
+Male,23,Information Technology,University of North Carolina--Chapel Hill,Placed,59000,3.7,2.0
+Female,25,Computer Science,University of Washington,Placed,65000,3.6,1.0
+Male,24,Electrical Engineering,University of California--San Diego,Placed,67000,3.5,3.0
+Female,26,Mechanical Engineering,University of Texas--Austin,Not Placed,0,3.8,3.0
+Male,23,Computer Science,University of California--Santa Barbara,Placed,60000,3.7,2.0
+Female,25,Electronics and Communication,University of Southern California,Placed,63000,3.6,1.0
+Male,26,Information Technology,University of Florida,Placed,60000,3.9,2.0
+Female,24,Computer Science,University of Minnesota--Twin Cities,Not Placed,0,3.8,3.0
+Male,23,Electrical Engineering,University of Maryland--College Park,Placed,64000,3.7,2.0
+Female,25,Mechanical Engineering,University of California--Davis,Placed,66000,3.5,1.0
+Male,24,Computer Science,University of Pittsburgh,Placed,59000,3.7,2.0
+Female,26,Electronics and Communication,University of Colorado--Boulder,Placed,62000,3.6,1.0
+Male,23,Information Technology,University of Rochester,Placed,61000,3.9,2.0
+Female,25,Computer Science,Boston College,Not Placed,0,3.8,3.0
+Male,26,Electrical Engineering,Rice University,Placed,65000,3.5,3.0
+Female,24,Electronics and Communication,University of California--Irvine,Placed,64000,3.6,1.0
+Male,23,Information Technology,Georgetown University,Placed,67000,3.7,2.0
+Female,25,Computer Science,University of Georgia,Not Placed,0,3.6,1.0
+Male,24,Information Technology,University of Notre Dame,Placed,63000,3.7,2.0
+Female,26,Computer Science,University of Iowa,Placed,62000,3.8,3.0
+Male,23,Electrical Engineering,University of California--Santa Cruz,Placed,60000,3.7,2.0
+Female,25,Mechanical Engineering,University of Connecticut,Placed,61000,3.5,1.0
+Male,24,Computer Science,University of California--Riverside,Not Placed,0,3.9,2.0
+Female,26,Electronics and Communication,University of Delaware,Placed,65000,3.7,1.0
+Male,23,Information Technology,University of California--San Francisco,Placed,66000,3.8,3.0
+Female,25,Computer Science,University of Texas--Dallas,Placed,63000,3.6,1.0
+Male,26,Electrical Engineering,University of Virginia,Placed,64000,3.9,2.0
+Female,24,Mechanical Engineering,University of California--Santa Cruz,Not Placed,0,3.4,1.0
+Male,23,Computer Science,University of California--San Diego,Placed,65000,3.7,2.0
+Female,25,Electronics and Communication,University of Texas--Austin,Placed,66000,3.8,3.0
+Male,26,Information Technology,University of California--Los Angeles,Placed,67000,3.9,3.0
+Female,24,Computer Science,University of Michigan--Ann Arbor,Placed,68000,3.9,3.0
+Male,23,Electrical Engineering,University of Pennsylvania,Not Placed,0,3.7,2.0
+Female,25,Mechanical Engineering,University of Washington,Placed,67000,3.8,3.0
+Male,26,Computer Science,University of California--Berkeley,Placed,66000,3.9,3.0
+Female,24,Electronics and Communication,University of Illinois--Urbana-Champaign,Placed,65000,3.8,3.0
+Male,23,Information Technology,University of Colorado--Boulder,Placed,66000,3.7,2.0
+Female,25,Computer Science,University of North Carolina--Chapel Hill,Not Placed,0,3.6,1.0
+Male,24,Information Technology,University of Maryland--College Park,Placed,63000,3.7,2.0
+Female,26,Computer Science,University of Rochester,Placed,62000,3.8,3.0
+Male,23,Electrical Engineering,University of California--Santa Cruz,Placed,60000,3.7,2.0
+Female,25,Mechanical Engineering,University of Connecticut,Placed,61000,3.5,1.0
+Male,24,Computer Science,University of California--Riverside,Not Placed,0,3.9,2.0
+Female,26,Electronics and Communication,University of Delaware,Placed,65000,3.7,1.0
+Male,23,Information Technology,University of California--San Francisco,Placed,66000,3.8,3.0
+Female,25,Computer Science,University of Texas--Dallas,Placed,63000,3.6,1.0
+Male,26,Electrical Engineering,University of Virginia,Placed,64000,3.9,2.0
+Female,24,Mechanical Engineering,University of California--Santa Cruz,Not Placed,0,3.4,1.0
+Male,23,Computer Science,University of California--San Diego,Placed,65000,3.7,2.0
+Female,25,Electronics and Communication,University of Texas--Austin,Placed,66000,3.8,3.0
+Male,26,Information Technology,University of California--Los Angeles,Placed,67000,3.9,3.0
+Female,24,Computer Science,University of Michigan--Ann Arbor,Placed,68000,3.9,3.0
+Male,23,Electrical Engineering,University of Pennsylvania,Not Placed,0,3.7,2.0
+Female,25,Mechanical Engineering,University of Washington,Placed,67000,3.8,3.0
+Male,26,Computer Science,University of California--Berkeley,Placed,66000,3.9,3.0
+Female,24,Electronics and Communication,University of Illinois--Urbana-Champaign,Placed,65000,3.8,3.0
+Male,23,Information Technology,University of Colorado--Boulder,Placed,66000,3.7,2.0
+Female,25,Computer Science,University of North Carolina--Chapel Hill,Not Placed,0,3.6,1.0
+Male,24,Information Technology,University of Maryland--College Park,Placed,63000,3.7,2.0
+Female,26,Computer Science,University of Rochester,Placed,62000,3.8,3.0
+Male,23,Electrical Engineering,University of California--Santa Cruz,Placed,60000,3.7,2.0
+Female,25,Mechanical Engineering,University of Connecticut,Placed,61000,3.5,1.0
+Male,24,Computer Science,University of California--Riverside,Not Placed,0,3.9,2.0
+Female,26,Electronics and Communication,University of Delaware,Placed,65000,3.7,1.0
+Male,23,Information Technology,University of California--San Francisco,Placed,66000,3.8,3.0
+Female,25,Computer Science,University of Texas--Dallas,Placed,63000,3.6,1.0
+Male,26,Electrical Engineering,University of Virginia,Placed,64000,3.9,2.0
+Female,24,Mechanical Engineering,University of California--Santa Cruz,Not Placed,0,3.4,1.0
+Male,23,Computer Science,University of California--San Diego,Placed,65000,3.7,2.0
+Female,25,Electronics and Communication,University of Texas--Austin,Placed,66000,3.8,3.0
+Male,26,Information Technology,University of California--Los Angeles,Placed,67000,3.9,3.0
+Female,24,Computer Science,University of Michigan--Ann Arbor,Placed,68000,3.9,3.0
+Male,23,Electrical Engineering,University of Pennsylvania,Not Placed,0,3.7,2.0
+Female,25,Mechanical Engineering,University of Washington,Placed,67000,3.8,3.0
+Male,26,Computer Science,University of California--Berkeley,Placed,66000,3.9,3.0
+Female,24,Electronics and Communication,University of Illinois--Urbana-Champaign,Placed,65000,3.8,3.0
+Male,23,Information Technology,University of Colorado--Boulder,Placed,66000,3.7,2.0
+Female,25,Computer Science,University of North Carolina--Chapel Hill,Not Placed,0,3.6,1.0
+Male,24,Information Technology,University of Maryland--College Park,Placed,63000,3.7,2.0
+Female,26,Computer Science,University of Rochester,Placed,62000,3.8,3.0
+Male,23,Electrical Engineering,University of California--Santa Cruz,Placed,60000,3.7,2.0
+Female,25,Mechanical Engineering,University of Connecticut,Placed,61000,3.5,1.0
+Male,24,Computer Science,University of California--Riverside,Not Placed,0,3.9,2.0
+Female,26,Electronics and Communication,University of Delaware,Placed,65000,3.7,1.0
+Male,23,Information Technology,University of California--San Francisco,Placed,66000,3.8,3.0
+Female,25,Computer Science,University of Texas--Dallas,Placed,63000,3.6,1.0
+Male,26,Electrical Engineering,University of Virginia,Placed,64000,3.9,2.0
+Female,24,Mechanical Engineering,University of California--Santa Cruz,Not Placed,0,3.4,1.0
+Male,23,Computer Science,University of California--San Diego,Placed,65000,3.7,2.0
+Female,25,Electronics and Communication,University of Texas--Austin,Placed,66000,3.8,3.0
+Male,26,Information Technology,University of California--Los Angeles,Placed,67000,3.9,3.0
+Female,24,Computer Science,University of Michigan--Ann Arbor,Placed,68000,3.9,3.0
+Male,23,Electrical Engineering,University of Pennsylvania,Not Placed,0,3.7,2.0
+Female,25,Mechanical Engineering,University of Washington,Placed,67000,3.8,3.0
+Male,26,Computer Science,University of California--Berkeley,Placed,66000,3.9,3.0
+Female,24,Electronics and Communication,University of Illinois--Urbana-Champaign,Placed,65000,3.8,3.0
+Male,23,Information Technology,University of Colorado--Boulder,Placed,66000,3.7,2.0
+Female,25,Computer Science,University of North Carolina--Chapel Hill,Not Placed,0,3.6,1.0
+Male,24,Information Technology,University of Maryland--College Park,Placed,63000,3.7,2.0
+Female,26,Computer Science,University of Rochester,Placed,62000,3.8,3.0
+Male,23,Electrical Engineering,University of California--Santa Cruz,Placed,60000,3.7,2.0
+Female,25,Mechanical Engineering,University of Connecticut,Placed,61000,3.5,1.0
+Male,24,Computer Science,University of California--Riverside,Not Placed,0,3.9,2.0
+Female,26,Electronics and Communication,University of Delaware,Placed,65000,3.7,1.0
+Male,23,Information Technology,University of California--San Francisco,Placed,66000,3.8,3.0
+Female,25,Computer Science,University of Texas--Dallas,Placed,63000,3.6,1.0
+Male,26,Electrical Engineering,University of Virginia,Placed,64000,3.9,2.0
+Female,24,Mechanical Engineering,University of California--Santa Cruz,Not Placed,0,3.4,1.0
+Male,23,Computer Science,University of California--San Diego,Placed,65000,3.7,2.0
+Female,25,Electronics and Communication,University of Texas--Austin,Placed,66000,3.8,3.0
+Male,26,Information Technology,University of California--Los Angeles,Placed,67000,3.9,3.0
+Female,24,Computer Science,University of Michigan--Ann Arbor,Placed,68000,3.9,3.0
+Male,23,Electrical Engineering,University of Pennsylvania,Not Placed,0,3.7,2.0
+Female,25,Mechanical Engineering,University of Washington,Placed,67000,3.8,3.0
+Male,26,Computer Science,University of California--Berkeley,Placed,66000,3.9,3.0
+Female,24,Electronics and Communication,University of Illinois--Urbana-Champaign,Placed,65000,3.8,3.0
+Male,23,Information Technology,University of Colorado--Boulder,Placed,66000,3.7,2.0
+Female,25,Computer Science,University of North Carolina--Chapel Hill,Not Placed,0,3.6,1.0
+Male,24,Information Technology,University of Maryland--College Park,Placed,63000,3.7,2.0
+Female,26,Computer Science,University of Rochester,Placed,62000,3.8,3.0
+Male,23,Electrical Engineering,University of California--Santa Cruz,Placed,60000,3.7,2.0
+Female,25,Mechanical Engineering,University of Connecticut,Placed,61000,3.5,1.0
+Male,24,Computer Science,University of California--Riverside,Not Placed,0,3.9,2.0
+Female,26,Electronics and Communication,University of Delaware,Placed,65000,3.7,1.0
+Male,23,Information Technology,University of California--San Francisco,Placed,66000,3.8,3.0
+Female,25,Computer Science,University of Texas--Dallas,Placed,63000,3.6,1.0
+Male,26,Electrical Engineering,University of Virginia,Placed,64000,3.9,2.0
+Female,24,Mechanical Engineering,University of California--Santa Cruz,Not Placed,0,3.4,1.0
+Male,23,Computer Science,University of California--San Diego,Placed,65000,3.7,2.0
+Female,25,Electronics and Communication,University of Texas--Austin,Placed,66000,3.8,3.0
+Male,26,Information Technology,University of California--Los Angeles,Placed,67000,3.9,3.0
+Female,24,Computer Science,University of Michigan--Ann Arbor,Placed,68000,3.9,3.0
+Male,23,Electrical Engineering,University of Pennsylvania,Not Placed,0,3.7,2.0
+Female,25,Mechanical Engineering,University of Washington,Placed,67000,3.8,3.0
+Male,26,Computer Science,University of California--Berkeley,Placed,66000,3.9,3.0
+Female,24,Electronics and Communication,University of Illinois--Urbana-Champaign,Placed,65000,3.8,3.0
+Male,23,Information Technology,University of Colorado--Boulder,Placed,66000,3.7,2.0
+Female,25,Computer Science,University of North Carolina--Chapel Hill,Not Placed,0,3.6,1.0
+Male,24,Information Technology,University of Maryland--College Park,Placed,63000,3.7,2.0
+Female,26,Computer Science,University of Rochester,Placed,62000,3.8,3.0
+Male,23,Electrical Engineering,University of California--Santa Cruz,Placed,60000,3.7,2.0
+Female,25,Mechanical Engineering,University of Connecticut,Placed,61000,3.5,1.0
+Male,24,Computer Science,University of California--Riverside,Not Placed,0,3.9,2.0
+Female,26,Electronics and Communication,University of Delaware,Placed,65000,3.7,1.0
+Male,23,Information Technology,University of California--San Francisco,Placed,66000,3.8,3.0
+Female,25,Computer Science,University of Texas--Dallas,Placed,63000,3.6,1.0
+Male,26,Electrical Engineering,University of Virginia,Placed,64000,3.9,2.0
+Female,24,Mechanical Engineering,University of California--Santa Cruz,Not Placed,0,3.4,1.0
+Male,23,Computer Science,University of California--San Diego,Placed,65000,3.7,2.0
+Female,25,Electronics and Communication,University of Texas--Austin,Placed,66000,3.8,3.0
+Male,26,Information Technology,University of California--Los Angeles,Placed,67000,3.9,3.0
+Female,24,Computer Science,University of Michigan--Ann Arbor,Placed,68000,3.9,3.0
+Male,23,Electrical Engineering,University of Pennsylvania,Not Placed,0,3.7,2.0
+Female,25,Mechanical Engineering,University of Washington,Placed,67000,3.8,3.0
+Male,26,Computer Science,University of California--Berkeley,Placed,66000,3.9,3.0
+Female,24,Electronics and Communication,University of Illinois--Urbana-Champaign,Placed,65000,3.8,3.0
+Male,23,Information Technology,University of Colorado--Boulder,Placed,66000,3.7,2.0
+Female,25,Computer Science,University of North Carolina--Chapel Hill,Not Placed,0,3.6,1.0
+Male,24,Information Technology,University of Maryland--College Park,Placed,63000,3.7,2.0
+Female,26,Computer Science,University of Rochester,Placed,62000,3.8,3.0
+Male,23,Electrical Engineering,University of California--Santa Cruz,Placed,60000,3.7,2.0
+Female,25,Mechanical Engineering,University of Connecticut,Placed,61000,3.5,1.0
+Male,24,Computer Science,University of California--Riverside,Not Placed,0,3.9,2.0
+Female,26,Electronics and Communication,University of Delaware,Placed,65000,3.7,1.0
+Male,23,Information Technology,University of California--San Francisco,Placed,66000,3.8,3.0
+Female,25,Computer Science,University of Texas--Dallas,Placed,63000,3.6,1.0
+Male,26,Electrical Engineering,University of Virginia,Placed,64000,3.9,2.0
+Female,24,Mechanical Engineering,University of California--Santa Cruz,Not Placed,0,3.4,1.0
+Male,23,Computer Science,University of California--San Diego,Placed,65000,3.7,2.0
+Female,25,Electronics and Communication,University of Texas--Austin,Placed,66000,3.8,3.0
+Female,23,Information Technology,University of Maryland--College Park,Placed,61000,3.7,2.0
+Male,24,Computer Science,University of Michigan--Ann Arbor,Placed,64000,3.8,3.0
+Female,25,Electrical Engineering,University of California--Los Angeles,Placed,66000,3.9,3.0
+Male,26,Mechanical Engineering,University of Virginia,Placed,67000,3.9,3.0
+Female,24,Electronics and Communication,University of Texas--Austin,Placed,68000,3.9,3.0
+Male,23,Computer Science,University of Pennsylvania,Not Placed,0,3.7,2.0
+Female,25,Information Technology,University of Washington,Placed,67000,3.8,3.0
+Male,26,Electrical Engineering,University of California--Berkeley,Placed,66000,3.9,3.0
+Female,24,Mechanical Engineering,University of Illinois--Urbana-Champaign,Placed,65000,3.8,3.0
+Male,23,Electronics and Communication,University of Colorado--Boulder,Placed,66000,3.7,2.0
+Female,25,Computer Science,University of North Carolina--Chapel Hill,Not Placed,0,3.6,1.0
+Male,24,Information Technology,University of Maryland--College Park,Placed,63000,3.7,2.0
+Female,23,Computer Science,University of Michigan--Ann Arbor,Placed,64000,3.8,3.0
+Male,24,Electrical Engineering,University of California--Los Angeles,Placed,66000,3.9,3.0
+Female,25,Mechanical Engineering,University of Virginia,Placed,67000,3.9,3.0
+Male,26,Electronics and Communication,University of Texas--Austin,Placed,68000,3.9,3.0
+Female,24,Computer Science,University of Pennsylvania,Not Placed,0,3.7,2.0
+Male,23,Information Technology,University of Washington,Placed,67000,3.8,3.0
+Female,25,Electrical Engineering,University of California--Berkeley,Placed,66000,3.9,3.0
+Male,26,Mechanical Engineering,University of Illinois--Urbana-Champaign,Placed,65000,3.8,3.0
+Female,24,Electronics and Communication,University of Colorado--Boulder,Placed,66000,3.7,2.0
+Male,23,Computer Science,University of North Carolina--Chapel Hill,Not Placed,0,3.6,1.0
+Female,25,Information Technology,University of Maryland--College Park,Placed,63000,3.7,2.0
+Male,24,Electrical Engineering,University of Michigan--Ann Arbor,Placed,64000,3.8,3.0
+Female,23,Mechanical Engineering,University of California--Los Angeles,Placed,66000,3.9,3.0
+Male,24,Electronics and Communication,University of Virginia,Placed,67000,3.9,3.0
+Female,25,Computer Science,University of Texas--Austin,Placed,68000,3.9,3.0
+Male,26,Information Technology,University of Pennsylvania,Not Placed,0,3.7,2.0
+Female,24,Electrical Engineering,University of Washington,Placed,67000,3.8,3.0
+Male,23,Mechanical Engineering,University of California--Berkeley,Placed,66000,3.9,3.0
+Female,25,Electronics and Communication,University of Illinois--Urbana-Champaign,Placed,65000,3.8,3.0
+Male,26,Computer Science,University of Colorado--Boulder,Placed,66000,3.7,2.0
+Female,24,Information Technology,University of North Carolina--Chapel Hill,Not Placed,0,3.6,1.0
+Male,23,Electrical Engineering,University of Maryland--College Park,Placed,63000,3.7,2.0
+Female,25,Mechanical Engineering,University of Michigan--Ann Arbor,Placed,64000,3.8,3.0
+Male,24,Electronics and Communication,University of California--Los Angeles,Placed,66000,3.9,3.0
+Female,23,Computer Science,University of Virginia,Placed,67000,3.9,3.0
+Male,24,Information Technology,University of Texas--Austin,Placed,68000,3.9,3.0
+Female,25,Electrical Engineering,University of Pennsylvania,Not Placed,0,3.7,2.0
+Male,26,Mechanical Engineering,University of Washington,Placed,67000,3.8,3.0
+Female,24,Electronics and Communication,University of California--Berkeley,Placed,66000,3.9,3.0
+Male,23,Computer Science,University of Illinois--Urbana-Champaign,Placed,65000,3.8,3.0
+Female,25,Information Technology,University of Colorado--Boulder,Placed,66000,3.7,2.0
+Male,26,Electrical Engineering,University of North Carolina--Chapel Hill,Not Placed,0,3.6,1.0
+Female,24,Mechanical Engineering,University of Maryland--College Park,Placed,63000,3.7,2.0
+Male,23,Electronics and Communication,University of Michigan--Ann Arbor,Placed,64000,3.8,3.0
+Female,25,Computer Science,University of California--Los Angeles,Placed,66000,3.9,3.0
+Male,24,Information Technology,University of Virginia,Placed,67000,3.9,3.0
+Female,23,Electrical Engineering,University of Texas--Austin,Placed,68000,3.9,3.0
+Male,24,Mechanical Engineering,University of Pennsylvania,Not Placed,0,3.7,2.0
+Female,25,Electronics and Communication,University of Washington,Placed,67000,3.8,3.0
+Male,26,Computer Science,University of California--Berkeley,Placed,66000,3.9,3.0
+Female,24,Information Technology,University of Illinois--Urbana-Champaign,Placed,65000,3.8,3.0
+Male,23,Electrical Engineering,University of Colorado--Boulder,Placed,66000,3.7,2.0
+Female,25,Mechanical Engineering,University of North Carolina--Chapel Hill,Not Placed,0,3.6,1.0
+Male,26,Electronics and Communication,University of Maryland--College Park,Placed,63000,3.7,2.0
+Female,24,Computer Science,University of Michigan--Ann Arbor,Placed,64000,3.8,3.0
+Male,23,Information Technology,University of California--Los Angeles,Placed,66000,3.9,3.0
+Female,25,Electrical Engineering,University of Virginia,Placed,67000,3.9,3.0
+Male,24,Mechanical Engineering,University of Texas--Austin,Placed,68000,3.9,3.0
+Female,23,Electronics and Communication,University of Pennsylvania,Not Placed,0,3.7,2.0
+Male,24,Computer Science,University of Washington,Placed,67000,3.8,3.0
+Female,25,Information Technology,University of California--Berkeley,Placed,66000,3.9,3.0
+Male,26,Electrical Engineering,University of Illinois--Urbana-Champaign,Placed,65000,3.8,3.0
+Female,24,Mechanical Engineering,University of Colorado--Boulder,Placed,66000,3.7,2.0
+Male,23,Electronics and Communication,University of North Carolina--Chapel Hill,Not Placed,0,3.6,1.0
+Female,25,Computer Science,University of Maryland--College Park,Placed,63000,3.7,2.0
+Male,26,Information Technology,University of Michigan--Ann Arbor,Placed,64000,3.8,3.0
+Female,24,Electrical Engineering,University of California--Los Angeles,Placed,66000,3.9,3.0
+Male,23,Mechanical Engineering,University of Virginia,Placed,67000,3.9,3.0
+Female,25,Electronics and Communication,University of Texas--Austin,Placed,68000,3.9,3.0
+Male,24,Computer Science,University of Pennsylvania,Not Placed,0,3.7,2.0
+Female,23,Information Technology,University of Washington,Placed,67000,3.8,3.0
+Male,24,Electrical Engineering,University of California--Berkeley,Placed,66000,3.9,3.0
+Female,25,Mechanical Engineering,University of Illinois--Urbana-Champaign,Placed,65000,3.8,3.0
+Male,26,Electronics and Communication,University of Colorado--Boulder,Placed,66000,3.7,2.0
+Female,24,Computer Science,University of North Carolina--Chapel Hill,Not Placed,0,3.6,1.0
+Male,23,Information Technology,University of Maryland--College Park,Placed,63000,3.7,2.0
+Female,25,Electrical Engineering,University of Michigan--Ann Arbor,Placed,64000,3.8,3.0
+Male,26,Mechanical Engineering,University of California--Los Angeles,Placed,66000,3.9,3.0
+Female,24,Electronics and Communication,University of Virginia,Placed,67000,3.9,3.0
+Male,23,Computer Science,University of Texas--Austin,Placed,68000,3.9,3.0
+Female,25,Information Technology,University of Pennsylvania,Not Placed,0,3.7,2.0
+Male,24,Electrical Engineering,University of Washington,Placed,67000,3.8,3.0
+Female,23,Mechanical Engineering,University of California--Berkeley,Placed,66000,3.9,3.0
+Male,24,Electronics and Communication,University of Illinois--Urbana-Champaign,Placed,65000,3.8,3.0
+Female,25,Computer Science,University of Colorado--Boulder,Placed,66000,3.7,2.0
+Male,24,Computer Science,University of California--San Diego,Placed,64000,3.6,2.0
+Female,25,Electrical Engineering,University of Texas--Austin,Placed,65000,3.7,2.0
+Male,23,Information Technology,University of California--Los Angeles,Placed,67000,3.8,3.0
+Female,26,Mechanical Engineering,University of Michigan--Ann Arbor,Placed,68000,3.9,3.0
+Male,24,Computer Science,University of Pennsylvania,Not Placed,0,3.7,2.0
+Female,25,Electronics and Communication,University of Washington,Placed,67000,3.8,3.0
+Male,23,Information Technology,University of California--Berkeley,Placed,66000,3.9,3.0
+Female,26,Mechanical Engineering,University of Illinois--Urbana-Champaign,Placed,65000,3.8,3.0
+Male,24,Computer Science,University of Colorado--Boulder,Placed,66000,3.7,2.0
+Female,25,Electrical Engineering,University of North Carolina--Chapel Hill,Not Placed,0,3.6,1.0
+Male,23,Information Technology,University of Maryland--College Park,Placed,63000,3.7,2.0
+Female,26,Mechanical Engineering,University of Rochester,Placed,62000,3.8,3.0
+Male,24,Computer Science,University of California--Santa Cruz,Placed,60000,3.7,2.0
+Female,23,Electronics and Communication,University of Connecticut,Placed,61000,3.5,1.0
+Male,26,Information Technology,University of California--Riverside,Not Placed,0,3.9,2.0
+Female,24,Mechanical Engineering,University of Delaware,Placed,65000,3.7,1.0
+Male,23,Computer Science,University of California--San Francisco,Placed,66000,3.8,3.0
+Female,26,Electrical Engineering,University of Texas--Dallas,Placed,63000,3.6,1.0
+Female,24,Information Technology,University of Virginia,Placed,64000,3.9,2.0
+Male,25,Computer Science,University of California--Los Angeles,Placed,67000,3.9,3.0
+Female,23,Electronics and Communication,University of Michigan--Ann Arbor,Placed,68000,3.9,3.0
+Male,26,Information Technology,University of Pennsylvania,Not Placed,0,3.7,2.0
+Female,24,Mechanical Engineering,University of Washington,Placed,67000,3.8,3.0
+Male,23,Computer Science,University of California--Berkeley,Placed,66000,3.9,3.0
+Female,26,Electronics and Communication,University of Illinois--Urbana-Champaign,Placed,65000,3.8,3.0
+Male,24,Computer Science,University of Colorado--Boulder,Placed,66000,3.7,2.0
+Female,23,Electrical Engineering,University of North Carolina--Chapel Hill,Not Placed,0,3.6,1.0
+Male,26,Information Technology,University of Maryland--College Park,Placed,63000,3.7,2.0
+Female,24,Mechanical Engineering,University of Rochester,Placed,62000,3.8,3.0
+Male,23,Computer Science,University of California--Santa Cruz,Placed,60000,3.7,2.0
+Female,26,Electrical Engineering,University of Connecticut,Placed,61000,3.5,1.0
+Female,24,Information Technology,University of California--Riverside,Not Placed,0,3.9,2.0
+Male,25,Computer Science,University of Delaware,Placed,65000,3.7,1.0
+Female,23,Electronics and Communication,University of California--San Francisco,Placed,66000,3.8,3.0
+Male,26,Information Technology,University of Texas--Dallas,Placed,63000,3.6,1.0
+Female,24,Mechanical Engineering,University of Virginia,Placed,64000,3.9,2.0
+Male,23,Computer Science,University of California--Los Angeles,Placed,67000,3.9,3.0
+Female,26,Electronics and Communication,University of Michigan--Ann Arbor,Placed,68000,3.9,3.0
+Male,24,Computer Science,University of Pennsylvania,Not Placed,0,3.7,2.0
+Female,23,Electrical Engineering,University of Washington,Placed,67000,3.8,3.0
+Male,26,Information Technology,University of California--Berkeley,Placed,66000,3.9,3.0
+Female,24,Mechanical Engineering,University of Illinois--Urbana-Champaign,Placed,65000,3.8,3.0
+Male,23,Computer Science,University of Colorado--Boulder,Placed,66000,3.7,2.0
+Female,26,Electrical Engineering,University of North Carolina--Chapel Hill,Not Placed,0,3.6,1.0
+Female,24,Information Technology,University of Maryland--College Park,Placed,63000,3.7,2.0
+Male,25,Computer Science,University of Rochester,Placed,62000,3.8,3.0
+Female,23,Electronics and Communication,University of California--Santa Cruz,Placed,60000,3.7,2.0
+Male,26,Information Technology,University of Connecticut,Placed,61000,3.5,1.0
+Female,24,Mechanical Engineering,University of California--Riverside,Not Placed,0,3.9,2.0
+Male,23,Computer Science,University of Delaware,Placed,65000,3.7,1.0
+Female,26,Electronics and Communication,University of California--San Francisco,Placed,66000,3.8,3.0
+Male,24,Computer Science,University of Texas--Dallas,Placed,63000,3.6,1.0
+Female,23,Electrical Engineering,University of Virginia,Placed,64000,3.9,2.0
+Male,26,Information Technology,University of Michigan--Ann Arbor,Placed,67000,3.9,3.0
+Female,24,Mechanical Engineering,University of Pennsylvania,Not Placed,0,3.7,2.0
+Male,23,Computer Science,University of Washington,Placed,67000,3.8,3.0
+Female,26,Electrical Engineering,University of California--Los Angeles,Placed,66000,3.9,3.0
+Female,24,Information Technology,University of California--Berkeley,Placed,65000,3.9,3.0
+Male,25,Computer Science,University of Illinois--Urbana-Champaign,Placed,65000,3.8,3.0
+Female,23,Electronics and Communication,University of Colorado--Boulder,Placed,66000,3.7,2.0
+Male,26,Information Technology,University of North Carolina--Chapel Hill,Not Placed,0,3.6,1.0
+Female,24,Mechanical Engineering,University of Maryland--College Park,Placed,63000,3.7,2.0
+Male,23,Computer Science,University of Rochester,Placed,62000,3.8,3.0
+Female,26,Electronics and Communication,University of California--Santa Cruz,Placed,60000,3.7,2.0
+Male,24,Computer Science,University of Connecticut,Placed,61000,3.5,1.0
+Female,23,Electrical Engineering,University of California--Riverside,Not Placed,0,3.9,2.0
+Male,26,Information Technology,University of Delaware,Placed,65000,3.7,1.0
+Female,24,Mechanical Engineering,University of California--San Francisco,Placed,66000,3.8,3.0
+Male,23,Computer Science,University of Texas--Dallas,Placed,63000,3.6,1.0
+Female,26,Electrical Engineering,University of Virginia,Placed,64000,3.9,2.0
+Female,24,Information Technology,University of Michigan--Ann Arbor,Placed,67000,3.9,3.0
+Male,25,Computer Science,University of Pennsylvania,Not Placed,0,3.7,2.0
+Female,23,Electronics and Communication,University of Washington,Placed,67000,3.8,3.0
+Male,26,Information Technology,University of California--Berkeley,Placed,66000,3.9,3.0
+Female,24,Mechanical Engineering,University of Illinois--Urbana-Champaign,Placed,65000,3.8,3.0
+Male,23,Computer Science,University of Colorado--Boulder,Placed,66000,3.7,2.0
+Female,26,Electronics and Communication,University of North Carolina--Chapel Hill,Not Placed,0,3.6,1.0
+Male,24,Computer Science,University of Maryland--College Park,Placed,63000,3.7,2.0
+Female,23,Electrical Engineering,University of Rochester,Placed,62000,3.8,3.0
+Male,26,Information Technology,University of California--Santa Cruz,Placed,60000,3.7,2.0
+Female,24,Mechanical Engineering,University of Connecticut,Placed,61000,3.5,1.0
+Male,23,Computer Science,University of California--Riverside,Not Placed,0,3.9,2.0
+Female,26,Electrical Engineering,University of Delaware,Placed,65000,3.7,1.0
+Female,24,Information Technology,University of California--San Francisco,Placed,66000,3.8,3.0
+Male,25,Computer Science,University of Texas--Dallas,Placed,63000,3.6,1.0
+Female,23,Electronics and Communication,University of Virginia,Placed,64000,3.9,2.0
+Male,26,Information Technology,University of Michigan--Ann Arbor,Placed,67000,3.9,3.0
+Female,24,Mechanical Engineering,University of Pennsylvania,Not Placed,0,3.7,2.0
+Male,23,Computer Science,University of Washington,Placed,67000,3.8,3.0
+Female,26,Electronics and Communication,University of California--Berkeley,Placed,66000,3.9,3.0
+Male,24,Computer Science,University of Illinois--Urbana-Champaign,Placed,65000,3.8,3.0
+Female,23,Electrical Engineering,University of Colorado--Boulder,Placed,66000,3.7,2.0
+Male,26,Information Technology,University of North Carolina--Chapel Hill,Not Placed,0,3.6,1.0
+Female,24,Mechanical Engineering,University of Maryland--College Park,Placed,63000,3.7,2.0
+Male,23,Computer Science,University of Rochester,Placed,62000,3.8,3.0
+Female,26,Electrical Engineering,University of California--Santa Cruz,Placed,60000,3.7,2.0
+Female,24,Information Technology,University of Connecticut,Placed,61000,3.5,1.0
+Male,25,Computer Science,University of California--Riverside,Not Placed,0,3.9,2.0
+Female,23,Electronics and Communication,University of Delaware,Placed,65000,3.7,1.0
+Male,26,Information Technology,University of California--San Francisco,Placed,66000,3.8,3.0
+Female,24,Mechanical Engineering,University of Texas--Dallas,Placed,63000,3.6,1.0
+Male,23,Computer Science,University of Michigan--Ann Arbor,Placed,64000,3.9,2.0
+Female,26,Electronics and Communication,University of Virginia,Placed,67000,3.9,3.0
+Male,24,Computer Science,University of California--Los Angeles,Placed,67000,3.8,3.0
+Female,23,Electrical Engineering,University of California--Berkeley,Placed,66000,3.7,2.0
+Male,26,Information Technology,University of Illinois--Urbana-Champaign,Placed,65000,3.8,3.0
+Female,24,Mechanical Engineering,University of Colorado--Boulder,Placed,66000,3.7,2.0
+Male,23,Computer Science,University of North Carolina--Chapel Hill,Not Placed,0,3.6,1.0
+Female,26,Electrical Engineering,University of Maryland--College Park,Placed,63000,3.7,2.0
+Female,24,Information Technology,University of Rochester,Placed,62000,3.8,3.0
+Male,25,Computer Science,University of California--Santa Cruz,Placed,60000,3.7,2.0
+Female,23,Electronics and Communication,University of Connecticut,Placed,61000,3.5,1.0
+Male,26,Information Technology,University of California--Riverside,Not Placed,0,3.9,2.0
+Female,24,Mechanical Engineering,University of Delaware,Placed,65000,3.7,1.0
+Male,23,Computer Science,University of California--San Francisco,Placed,66000,3.8,3.0
+Female,26,Electronics and Communication,University of Texas--Dallas,Placed,63000,3.6,1.0
+Male,24,Computer Science,University of Virginia,Placed,64000,3.9,2.0
+Female,23,Electrical Engineering,University of Michigan--Ann Arbor,Placed,67000,3.9,3.0
+Male,26,Information Technology,University of Pennsylvania,Not Placed,0,3.7,2.0
+Female,24,Mechanical Engineering,University of Washington,Placed,67000,3.8,3.0
+Male,23,Computer Science,University of California--Berkeley,Placed,66000,3.9,3.0
+Female,26,Electrical Engineering,University of Illinois--Urbana-Champaign,Placed,65000,3.8,3.0
+Female,24,Information Technology,University of Colorado--Boulder,Placed,66000,3.7,2.0
+Male,25,Computer Science,University of North Carolina--Chapel Hill,Not Placed,0,3.6,1.0
+Female,23,Electronics and Communication,University of Maryland--College Park,Placed,63000,3.7,2.0
+Male,26,Information Technology,University of Rochester,Placed,62000,3.8,3.0
+Female,24,Mechanical Engineering,University of California--Santa Cruz,Placed,60000,3.7,2.0
+Male,23,Computer Science,University of Connecticut,Placed,61000,3.5,1.0
+Female,26,Electrical Engineering,University of California--Riverside,Not Placed,0,3.9,2.0
+Male,24,Computer Science,University of Delaware,Placed,65000,3.7,1.0
+Female,23,Electronics and Communication,University of California--San Francisco,Placed,66000,3.8,3.0
+Male,26,Information Technology,University of Texas--Dallas,Placed,63000,3.6,1.0
+Female,24,Mechanical Engineering,University of Virginia,Placed,64000,3.9,2.0
+Male,23,Computer Science,University of Michigan--Ann Arbor,Placed,67000,3.9,3.0
+Female,26,Electrical Engineering,University of Pennsylvania,Not Placed,0,3.7,2.0
+Female,24,Information Technology,University of Washington,Placed,67000,3.8,3.0
+Male,25,Computer Science,University of California--Berkeley,Placed,66000,3.9,3.0
+Female,23,Electronics and Communication,University of Illinois--Urbana-Champaign,Placed,65000,3.8,3.0
+Male,26,Information Technology,University of Colorado--Boulder,Placed,66000,3.7,2.0
+Female,24,Mechanical Engineering,University of North Carolina--Chapel Hill,Not Placed,0,3.6,1.0
+Male,23,Computer Science,University of Maryland--College Park,Placed,63000,3.7,2.0
+Female,26,Electronics and Communication,University of Rochester,Placed,62000,3.8,3.0
+Male,24,Computer Science,University of California--Santa Cruz,Placed,60000,3.7,2.0
+Female,23,Electrical Engineering,University of Connecticut,Placed,61000,3.5,1.0
+Male,26,Information Technology,University of California--Riverside,Not Placed,0,3.9,2.0
+Female,24,Mechanical Engineering,University of Delaware,Placed,65000,3.7,1.0
+Male,23,Computer Science,University of California--San Francisco,Placed,66000,3.8,3.0
+Female,26,Electrical Engineering,University of Texas--Dallas,Placed,63000,3.6,1.0
+Female,24,Information Technology,University of Virginia,Placed,64000,3.9,2.0
+Male,25,Computer Science,University of Michigan--Ann Arbor,Placed,67000,3.9,3.0
+Female,23,Electronics and Communication,University of Pennsylvania,Not Placed,0,3.7,2.0
+Male,26,Information Technology,University of Washington,Placed,67000,3.8,3.0
+Female,24,Mechanical Engineering,University of California--Berkeley,Placed,66000,3.9,3.0
+Male,23,Computer Science,University of Illinois--Urbana-Champaign,Placed,65000,3.8,3.0
+Female,26,Electronics and Communication,University of Colorado--Boulder,Placed,66000,3.7,2.0
+Male,24,Computer Science,University of North Carolina--Chapel Hill,Not Placed,0,3.6,1.0
+Female,23,Electrical Engineering,University of Maryland--College Park,Placed,63000,3.7,2.0
+Male,26,Information Technology,University of Rochester,Placed,62000,3.8,3.0
+Female,24,Mechanical Engineering,University of California--Santa Cruz,Placed,60000,3.7,2.0
+Male,23,Computer Science,University of Connecticut,Placed,61000,3.5,1.0
+Female,26,Electrical Engineering,University of California--Riverside,Not Placed,0,3.9,2.0
+Female,24,Information Technology,University of Delaware,Placed,65000,3.7,1.0
+Male,25,Computer Science,University of California--San Francisco,Placed,66000,3.8,3.0
+Female,23,Electronics and Communication,University of Texas--Dallas,Placed,63000,3.6,1.0
+Male,26,Information Technology,University of Virginia,Placed,64000,3.9,2.0
+Female,24,Mechanical Engineering,University of Michigan--Ann Arbor,Placed,67000,3.9,3.0
+Male,23,Computer Science,University of Pennsylvania,Not Placed,0,3.7,2.0
+Female,26,Electronics and Communication,University of Washington,Placed,67000,3.8,3.0
+Male,24,Computer Science,University of California--Berkeley,Placed,66000,3.9,3.0
+Female,23,Electrical Engineering,University of Illinois--Urbana-Champaign,Placed,65000,3.8,3.0
+Male,26,Information Technology,University of Colorado--Boulder,Placed,66000,3.7,2.0
+Female,24,Mechanical Engineering,University of North Carolina--Chapel Hill,Not Placed,0,3.6,1.0
+Male,23,Computer Science,University of Maryland--College Park,Placed,63000,3.7,2.0
+Female,26,Electrical Engineering,University of Rochester,Placed,62000,3.8,3.0
+Female,24,Information Technology,University of California--Santa Cruz,Placed,60000,3.7,2.0
+Male,25,Computer Science,University of Connecticut,Placed,61000,3.5,1.0
+Female,23,Electronics and Communication,University of California--Riverside,Not Placed,0,3.9,2.0
+Male,26,Information Technology,University of Delaware,Placed,65000,3.7,1.0
+Female,24,Mechanical Engineering,University of California--San Francisco,Placed,66000,3.8,3.0
+Male,23,Computer Science,University of Texas--Dallas,Placed,63000,3.6,1.0
+Female,26,Electronics and Communication,University of Virginia,Placed,64000,3.9,2.0
+Male,24,Computer Science,University of Michigan--Ann Arbor,Placed,67000,3.9,3.0
+Female,23,Electrical Engineering,University of Pennsylvania,Not Placed,0,3.7,2.0
+Male,26,Information Technology,University of Washington,Placed,67000,3.8,3.0
+Female,24,Mechanical Engineering,University of California--Berkeley,Placed,66000,3.9,3.0
+Male,23,Computer Science,University of Illinois--Urbana-Champaign,Placed,65000,3.8,3.0
+Female,26,Electrical Engineering,University of Colorado--Boulder,Placed,66000,3.7,2.0
+Female,24,Information Technology,University of North Carolina--Chapel Hill,Not Placed,0,3.6,1.0
+Male,25,Computer Science,University of Maryland--College Park,Placed,63000,3.7,2.0
+Female,23,Electronics and Communication,University of Rochester,Placed,62000,3.8,3.0
+Male,26,Information Technology,University of California--Santa Cruz,Placed,60000,3.7,2.0
+Female,24,Mechanical Engineering,University of Connecticut,Placed,61000,3.5,1.0
+Male,23,Computer Science,University of California--Riverside,Not Placed,0,3.9,2.0
+Female,26,Electronics and Communication,University of Delaware,Placed,65000,3.7,1.0
+Male,24,Computer Science,University of California--San Francisco,Placed,66000,3.8,3.0
+Female,23,Electrical Engineering,University of Texas--Dallas,Placed,63000,3.6,1.0
+Male,26,Information Technology,University of Virginia,Placed,64000,3.9,2.0
+Female,24,Mechanical Engineering,University of Michigan--Ann Arbor,Placed,67000,3.9,3.0
+Male,23,Computer Science,University of Pennsylvania,Not Placed,0,3.7,2.0
+Female,26,Electrical Engineering,University of Washington,Placed,67000,3.8,3.0
+Female,24,Information Technology,University of California--Berkeley,Placed,66000,3.9,3.0
+Male,25,Computer Science,University of Illinois--Urbana-Champaign,Placed,65000,3.8,3.0
+Female,23,Electronics and Communication,University of Colorado--Boulder,Placed,66000,3.7,2.0
+Male,26,Information Technology,University of North Carolina--Chapel Hill,Not Placed,0,3.6,1.0
+Female,24,Mechanical Engineering,University of Maryland--College Park,Placed,63000,3.7,2.0
+Male,23,Computer Science,University of Rochester,Placed,62000,3.8,3.0
+Female,26,Electronics and Communication,University of California--Santa Cruz,Placed,60000,3.7,2.0
+Male,24,Computer Science,University of Connecticut,Placed,61000,3.5,1.0
+Female,23,Electrical Engineering,University of California--Riverside,Not Placed,0,3.9,2.0
+Male,26,Information Technology,University of Delaware,Placed,65000,3.7,1.0
+Female,24,Mechanical Engineering,University of California--San Francisco,Placed,66000,3.8,3.0
+Male,23,Computer Science,University of Texas--Dallas,Placed,63000,3.6,1.0
+Female,26,Electrical Engineering,University of Virginia,Placed,64000,3.9,2.0
+Female,24,Information Technology,University of Michigan--Ann Arbor,Placed,67000,3.9,3.0
+Male,25,Computer Science,University of Pennsylvania,Not Placed,0,3.7,2.0
+Female,23,Electronics and Communication,University of Washington,Placed,67000,3.8,3.0
+Male,26,Information Technology,University of California--Berkeley,Placed,66000,3.9,3.0
+Female,24,Mechanical Engineering,University of Illinois--Urbana-Champaign,Placed,65000,3.8,3.0
+Male,23,Computer Science,University of Colorado--Boulder,Placed,66000,3.7,2.0
+Female,26,Electronics and Communication,University of North Carolina--Chapel Hill,Not Placed,0,3.6,1.0
+Male,24,Computer Science,University of Maryland--College Park,Placed,63000,3.7,2.0
+Female,23,Electrical Engineering,University of Rochester,Placed,62000,3.8,3.0
+Male,26,Information Technology,University of California--Santa Cruz,Placed,60000,3.7,2.0
+Female,24,Mechanical Engineering,University of Connecticut,Placed,61000,3.5,1.0
+Male,23,Computer Science,University of California--Riverside,Not Placed,0,3.9,2.0
+Female,26,Electrical Engineering,University of Delaware,Placed,65000,3.7,1.0
+Female,24,Information Technology,University of California--San Francisco,Placed,66000,3.8,3.0
+Male,25,Computer Science,University of Texas--Dallas,Placed,63000,3.6,1.0
+Female,23,Electronics and Communication,University of Virginia,Placed,64000,3.9,2.0
+Male,26,Information Technology,University of Michigan--Ann Arbor,Placed,67000,3.9,3.0
+Female,24,Mechanical Engineering,University of Pennsylvania,Not Placed,0,3.7,2.0
+Male,23,Computer Science,University of Washington,Placed,67000,3.8,3.0
+Female,26,Electronics and Communication,University of California--Berkeley,Placed,66000,3.9,3.0
+Male,24,Computer Science,University of Illinois--Urbana-Champaign,Placed,65000,3.8,3.0
+Female,23,Electrical Engineering,University of Colorado--Boulder,Placed,66000,3.7,2.0
+Male,26,Information Technology,University of North Carolina--Chapel Hill,Not Placed,0,3.6,1.0
+Female,24,Mechanical Engineering,University of Maryland--College Park,Placed,63000,3.7,2.0
+Male,23,Computer Science,University of Rochester,Placed,62000,3.8,3.0
+Female,26,Electrical Engineering,University of California--Santa Cruz,Placed,60000,3.7,2.0
+Female,24,Information Technology,University of Connecticut,Placed,61000,3.5,1.0
+Male,25,Computer Science,University of California--Riverside,Not Placed,0,3.9,2.0
+Female,23,Electronics and Communication,University of Delaware,Placed,65000,3.7,1.0
+Male,26,Information Technology,University of California--San Francisco,Placed,66000,3.8,3.0
+Female,24,Mechanical Engineering,University of Texas--Dallas,Placed,63000,3.6,1.0
+Male,23,Computer Science,University of Michigan--Ann Arbor,Placed,64000,3.9,2.0
+Female,26,Electronics and Communication,University of Virginia,Placed,67000,3.9,3.0
+Male,24,Computer Science,University of California--Los Angeles,Placed,67000,3.8,3.0
+Female,23,Electrical Engineering,University of California--Berkeley,Placed,66000,3.7,2.0
+Male,26,Information Technology,University of Illinois--Urbana-Champaign,Placed,65000,3.8,3.0
+Female,24,Mechanical Engineering,University of Colorado--Boulder,Placed,66000,3.7,2.0
+Male,23,Computer Science,University of North Carolina--Chapel Hill,Not Placed,0,3.6,1.0
+Female,26,Electrical Engineering,University of Maryland--College Park,Placed,63000,3.7,2.0
+Female,24,Information Technology,University of Rochester,Placed,62000,3.8,3.0
+Male,25,Computer Science,University of California--Santa Cruz,Placed,60000,3.7,2.0
+Female,23,Electronics and Communication,University of Connecticut,Placed,61000,3.5,1.0
+Male,26,Information Technology,University of California--Riverside,Not Placed,0,3.9,2.0
+Female,24,Mechanical Engineering,University of Delaware,Placed,65000,3.7,1.0
+Male,23,Computer Science,University of California--San Francisco,Placed,66000,3.8,3.0
+Female,26,Electronics and Communication,University of Texas--Dallas,Placed,63000,3.6,1.0
+Male,24,Computer Science,University of Virginia,Placed,64000,3.9,2.0
+Female,23,Electrical Engineering,University of Michigan--Ann Arbor,Placed,67000,3.9,3.0
+Male,26,Information Technology,University of Pennsylvania,Not Placed,0,3.7,2.0
+Female,24,Mechanical Engineering,University of Washington,Placed,67000,3.8,3.0
+Male,23,Computer Science,University of California--Berkeley,Placed,66000,3.9,3.0
+Female,26,Electrical Engineering,University of Illinois--Urbana-Champaign,Placed,65000,3.8,3.0
+Female,24,Information Technology,University of Colorado--Boulder,Placed,66000,3.7,2.0
+Male,25,Computer Science,University of North Carolina--Chapel Hill,Not Placed,0,3.6,1.0
+Female,23,Electronics and Communication,University of Maryland--College Park,Placed,63000,3.7,2.0
+Male,26,Information Technology,University of Rochester,Placed,62000,3.8,3.0
+Female,24,Mechanical Engineering,University of California--Santa Cruz,Placed,60000,3.7,
+Male,23,Computer Science,University of California--Riverside,Not Placed,0,3.9,2.0
+Female,26,Electronics and Communication,University of Delaware,Placed,65000,3.7,1.0
+Male,24,Computer Science,University of California--San Francisco,Placed,66000,3.8,3.0
+Female,23,Electrical Engineering,University of Texas--Dallas,Placed,63000,3.6,1.0
+Male,26,Information Technology,University of Virginia,Placed,64000,3.9,2.0
+Female,24,Mechanical Engineering,University of Michigan--Ann Arbor,Placed,67000,3.9,3.0
+Male,23,Computer Science,University of Pennsylvania,Not Placed,0,3.7,2.0
+Female,26,Electrical Engineering,University of Washington,Placed,67000,3.8,3.0
+Female,24,Information Technology,University of California--Berkeley,Placed,66000,3.9,3.0
+Male,25,Computer Science,University of Illinois--Urbana-Champaign,Placed,65000,3.8,3.0
+Female,23,Electronics and Communication,University of Colorado--Boulder,Placed,66000,3.7,2.0
+Male,26,Information Technology,University of North Carolina--Chapel Hill,Not Placed,0,3.6,1.0
+Female,24,Mechanical Engineering,University of Maryland--College Park,Placed,63000,3.7,2.0
+Male,23,Computer Science,University of Rochester,Placed,62000,3.8,3.0
+Female,26,Electronics and Communication,University of California--Santa Cruz,Placed,60000,3.7,2.0
+Male,24,Computer Science,University of Connecticut,Placed,61000,3.5,1.0
+Female,23,Electrical Engineering,University of California--Riverside,Not Placed,0,3.9,2.0
+Male,26,Information Technology,University of Delaware,Placed,65000,3.7,1.0
+Female,24,Mechanical Engineering,University of California--San Francisco,Placed,66000,3.8,3.0
+Male,23,Computer Science,University of Texas--Dallas,Placed,63000,3.6,1.0
+Female,26,Electrical Engineering,University of Virginia,Placed,64000,3.9,2.0
+Female,24,Information Technology,University of Michigan--Ann Arbor,Placed,67000,3.9,3.0
+Male,25,Computer Science,University of Pennsylvania,Not Placed,0,3.7,2.0
+Female,23,Electronics and Communication,University of Washington,Placed,67000,3.8,3.0
+Male,26,Information Technology,University of California--Berkeley,Placed,66000,3.9,3.0
+Female,24,Mechanical Engineering,University of Illinois--Urbana-Champaign,Placed,65000,3.8,3.0
+Male,23,Computer Science,University of Colorado--Boulder,Placed,66000,3.7,2.0
+Female,26,Electronics and Communication,University of North Carolina--Chapel Hill,Not Placed,0,3.6,1.0
+Male,24,Computer Science,University of Maryland--College Park,Placed,63000,3.7,2.0
+Female,23,Electrical Engineering,University of Rochester,Placed,62000,3.8,3.0
+Male,26,Information Technology,University of California--Santa Cruz,Placed,60000,3.7,2.0
+Female,24,Mechanical Engineering,University of Connecticut,Placed,61000,3.5,1.0
+Male,23,Computer Science,University of California--Riverside,Not Placed,0,3.9,2.0
+Female,26,Electrical Engineering,University of Delaware,Placed,65000,3.7,1.0
+Female,24,Information Technology,University of California--San Francisco,Placed,66000,3.8,3.0
+Male,25,Computer Science,University of Texas--Dallas,Placed,63000,3.6,1.0
+Female,23,Electronics and Communication,University of Virginia,Placed,64000,3.9,2.0
+Male,26,Information Technology,University of Michigan--Ann Arbor,Placed,67000,3.9,3.0
+Female,24,Mechanical Engineering,University of Pennsylvania,Not Placed,0,3.7,2.0
+Male,23,Computer Science,University of Washington,Placed,67000,3.8,3.0
+Female,26,Electronics and Communication,University of California--Berkeley,Placed,66000,3.9,3.0
+Male,24,Computer Science,University of Illinois--Urbana-Champaign,Placed,65000,3.8,3.0
+Female,23,Electrical Engineering,University of Colorado--Boulder,Placed,66000,3.7,2.0
+Male,26,Information Technology,University of North Carolina--Chapel Hill,Not Placed,0,3.6,1.0
+Female,24,Mechanical Engineering,University of Maryland--College Park,Placed,63000,3.7,2.0
+Male,23,Computer Science,University of Rochester,Placed,62000,3.8,3.0
+Female,26,Electrical Engineering,University of California--Santa Cruz,Placed,60000,3.7,2.0
+Female,24,Information Technology,University of Connecticut,Placed,61000,3.5,1.0
+Male,25,Computer Science,University of California--Riverside,Not Placed,0,3.9,2.0
+Female,23,Electronics and Communication,University of Delaware,Placed,65000,3.7,1.0
+Male,26,Information Technology,University of California--San Francisco,Placed,66000,3.8,3.0
+Female,24,Mechanical Engineering,University of Texas--Dallas,Placed,63000,3.6,1.0
+Male,23,Computer Science,University of Michigan--Ann Arbor,Placed,64000,3.9,2.0
+Female,26,Electronics and Communication,University of Virginia,Placed,67000,3.9,3.0
+Male,24,Computer Science,University of California--Los Angeles,Placed,67000,3.8,3.0
+Female,23,Electrical Engineering,University of California--Berkeley,Placed,66000,3.7,2.0
+Male,26,Information Technology,University of Illinois--Urbana-Champaign,Placed,65000,3.8,3.0
+Female,24,Mechanical Engineering,University of Colorado--Boulder,Placed,66000,3.7,2.0
+Male,23,Computer Science,University of North Carolina--Chapel Hill,Not Placed,0,3.6,1.0
+Female,26,Electrical Engineering,University of Maryland--College Park,Placed,63000,3.7,2.0
+Female,24,Information Technology,University of Rochester,Placed,62000,3.8,3.0
+Male,25,Computer Science,University of California--Santa Cruz,Placed,60000,3.7,2.0
+Female,23,Electronics and Communication,University of Connecticut,Placed,61000,3.5,1.0
+Male,26,Information Technology,University of California--Riverside,Not Placed,0,3.9,2.0
+Female,24,Mechanical Engineering,University of Delaware,Placed,65000,3.7,1.0
+Male,23,Computer Science,University of California--San Francisco,Placed,66000,3.8,3.0
+Female,26,Electronics and Communication,University of Texas--Dallas,Placed,63000,3.6,1.0
+Male,24,Computer Science,University of Virginia,Placed,64000,3.9,2.0
+Female,23,Electrical Engineering,University of Michigan--Ann Arbor,Placed,67000,3.9,3.0
+Male,26,Information Technology,University of Pennsylvania,Not Placed,0,3.7,2.0
+Female,24,Mechanical Engineering,University of Washington,Placed,67000,3.8,3.0
+Male,23,Computer Science,University of California--Berkeley,Placed,66000,3.9,3.0
+Female,26,Electrical Engineering,University of Illinois--Urbana-Champaign,Placed,65000,3.8,3.0
+Female,26,Electronics and Communication,University of Colorado--Boulder,Placed,66000,3.7,2.0
+Male,24,Computer Science,University of North Carolina--Chapel Hill,Not Placed,0,3.6,1.0
+Female,23,Electrical Engineering,University of Maryland--College Park,Placed,63000,3.7,2.0
+Male,26,Information Technology,University of Rochester,Placed,62000,3.8,3.0
+Female,24,Mechanical Engineering,University of California--Santa Cruz,Placed,60000,3.7,2.0
+Male,23,Computer Science,University of Connecticut,Placed,61000,3.5,1.0
+Female,26,Electrical Engineering,University of California--Riverside,Not Placed,0,3.9,2.0
+Female,24,Information Technology,University of Delaware,Placed,65000,3.7,1.0
+Male,25,Computer Science,University of California--San Francisco,Placed,66000,3.8,3.0
+Female,23,Electronics and Communication,University of Texas--Dallas,Placed,63000,3.6,1.0
+Male,26,Information Technology,University of Virginia,Placed,64000,3.9,2.0
+Female,24,Mechanical Engineering,University of Michigan--Ann Arbor,Placed,67000,3.9,3.0
+Male,23,Computer Science,University of Pennsylvania,Not Placed,0,3.7,2.0
+Female,26,Electronics and Communication,University of Washington,Placed,67000,3.8,3.0
+Male,24,Computer Science,University of California--Berkeley,Placed,66000,3.9,3.0
+Female,23,Electrical Engineering,University of Illinois--Urbana-Champaign,Placed,65000,3.8,3.0
+Male,26,Information Technology,University of Colorado--Boulder,Placed,66000,3.7,2.0
+Female,24,Mechanical Engineering,University of North Carolina--Chapel Hill,Not Placed,0,3.6,1.0
+Male,23,Computer Science,University of Maryland--College Park,Placed,63000,3.7,2.0
+Female,26,Electrical Engineering,University of Rochester,Placed,62000,3.8,3.0
+Female,24,Information Technology,University of California--Santa Cruz,Placed,60000,3.7,2.0
+Male,25,Computer Science,University of Connecticut,Placed,61000,3.5,1.0
+Female,23,Electronics and Communication,University of California--Riverside,Not Placed,0,3.9,2.0
+Male,26,Information Technology,University of Delaware,Placed,65000,3.7,1.0
+Female,24,Mechanical Engineering,University of California--San Francisco,Placed,66000,3.8,3.0
+Male,23,Computer Science,University of Texas--Dallas,Placed,63000,3.6,1.0
+Female,26,Electronics and Communication,University of Virginia,Placed,64000,3.9,2.0
+Male,24,Computer Science,University of Michigan--Ann Arbor,Placed,67000,3.9,3.0
+Female,23,Electrical Engineering,University of Pennsylvania,Not Placed,0,3.7,2.0
+Male,26,Information Technology,University of Washington,Placed,67000,3.8,3.0
+Female,24,Mechanical Engineering,University of California--Berkeley,Placed,66000,3.9,3.0
+Male,23,Computer Science,University of Illinois--Urbana-Champaign,Placed,65000,3.8,3.0
+Female,26,Electrical Engineering,University of Colorado--Boulder,Placed,66000,3.7,2.0
+Female,24,Information Technology,University of North Carolina--Chapel Hill,Not Placed,0,3.6,1.0
+Male,25,Computer Science,University of Maryland--College Park,Placed,63000,3.7,2.0
+Female,23,Electronics and Communication,University of Rochester,Placed,62000,3.8,3.0
+Male,26,Information Technology,University of California--Santa Cruz,Placed,60000,3.7,2.0
+Female,24,Mechanical Engineering,University of Connecticut,Placed,61000,3.5,1.0
+Male,23,Computer Science,University of California--Riverside,Not Placed,0,3.9,2.0
+Female,26,Electronics and Communication,University of Delaware,Placed,65000,3.7,1.0
+Male,24,Computer Science,University of California--San Francisco,Placed,66000,3.8,3.0
+Female,23,Electrical Engineering,University of Texas--Dallas,Placed,63000,3.6,1.0
+Male,26,Information Technology,University of Virginia,Placed,64000,3.9,2.0
+Female,24,Mechanical Engineering,University of Michigan--Ann Arbor,Placed,67000,3.9,3.0
+Male,23,Computer Science,University of Pennsylvania,Not Placed,0,3.7,2.0
+Female,26,Electrical Engineering,University of Washington,Placed,67000,3.8,3.0
+Female,24,Information Technology,University of California--Berkeley,Placed,66000,3.9,3.0
+Male,25,Computer Science,University of Illinois--Urbana-Champaign,Placed,65000,3.8,3.0
+Female,23,Electronics and Communication,University of Colorado--Boulder,Placed,66000,3.7,2.0
+Male,26,Information Technology,University of North Carolina--Chapel Hill,Not Placed,0,3.6,1.0
+Female,24,Mechanical Engineering,University of Maryland--College Park,Placed,63000,3.7,2.0
+Male,23,Computer Science,University of Rochester,Placed,62000,3.8,3.0
+Female,26,Electronics and Communication,University of California--Santa Cruz,Placed,60000,3.7,2.0
+Male,24,Computer Science,University of Connecticut,Placed,61000,3.5,1.0
+Female,23,Electrical Engineering,University of California--Riverside,Not Placed,0,3.9,2.0
+Male,26,Information Technology,University of Delaware,Placed,65000,3.7,1.0
+Female,24,Mechanical Engineering,University of California--San Francisco,Placed,66000,3.8,3.0
+Male,23,Computer Science,University of Texas--Dallas,Placed,63000,3.6,1.0
+Female,26,Electrical Engineering,University of Virginia,Placed,64000,3.9,2.0
+Female,24,Information Technology,University of Michigan--Ann Arbor,Placed,67000,3.9,3.0
+Male,25,Computer Science,University of Pennsylvania,Not Placed,0,3.7,2.0
+Female,23,Electronics and Communication,University of Washington,Placed,67000,3.8,3.0
+Male,26,Information Technology,University of California--Berkeley,Placed,66000,3.9,3.0
+Female,24,Mechanical Engineering,University of Illinois--Urbana-Champaign,Placed,65000,3.8,3.0
+Male,23,Computer Science,University of Colorado--Boulder,Placed,66000,3.7,2.0
+Female,26,Electronics and Communication,University of North Carolina--Chapel Hill,Not Placed,0,3.6,1.0
+Male,24,Computer Science,University of Maryland--College Park,Placed,63000,3.7,2.0
+Female,23,Electrical Engineering,University of Rochester,Placed,62000,3.8,3.0
+Male,26,Information Technology,University of California--Santa Cruz,Placed,60000,3.7,2.0
+Female,24,Mechanical Engineering,University of Connecticut,Placed,61000,3.5,1.0
+Male,23,Computer Science,University of California--Riverside,Not Placed,0,3.9,2.0
+Female,26,Electrical Engineering,University of Delaware,Placed,65000,3.7,1.0
+Female,24,Information Technology,University of California--San Francisco,Placed,66000,3.8,3.0
+Male,25,Computer Science,University of Texas--Dallas,Placed,63000,3.6,1.0
+Female,23,Electronics and Communication,University of Virginia,Placed,64000,3.9,2.0
+Male,26,Information Technology,University of Michigan--Ann Arbor,Placed,67000,3.9,3.0
+Female,24,Mechanical Engineering,University of Pennsylvania,Not Placed,0,3.7,2.0
+Male,23,Computer Science,University of Washington,Placed,67000,3.8,3.0
+Female,26,Electronics and Communication,University of California--Berkeley,Placed,66000,3.9,3.0
+Male,24,Computer Science,University of Illinois--Urbana-Champaign,Placed,65000,3.8,3.0
+Female,23,Electrical Engineering,University of Colorado--Boulder,Placed,66000,3.7,2.0
+Male,26,Information Technology,University of North Carolina--Chapel Hill,Not Placed,0,3.6,1.0
