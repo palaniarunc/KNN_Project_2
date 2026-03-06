@@ -2,7 +2,7 @@ import pandas as pd
 from sklearn.discriminant_analysis import StandardScaler
 from sklearn.model_selection import train_test_split
 from sklearn.neighbors import KNeighborsClassifier
-from sklearn.metrics import accuracy_score, classification_report, balanced_accuracy_score
+from sklearn.metrics import accuracy_score
 import matplotlib.pyplot as plt
 import numpy as np
 import seaborn as sns
@@ -59,4 +59,4 @@ plt.ylabel('Accuracy')
 plt.tight_layout()
 plt.show()
 
-print(f"The optimal distance p value for this dataset is {best_distance_metric.upper()}.")
+print(f"The optimal distance p value for this dataset is {best_distance_metric}.")
