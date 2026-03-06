@@ -22,7 +22,7 @@ X_train, X_test, y_train, y_test = train_test_split(scaled_df,dfplacements,test_
 
 
 for formula in distance_formulas:
-    knn = KNeighborsClassifier(n_neighbors=5, weights = "distance", p=formula)
+    knn = KNeighborsClassifier(n_neighbors=4, weights = "distance", p=formula)
     knn.fit(X_train, y_train)
     y_predict = knn.predict(X_test)
 
