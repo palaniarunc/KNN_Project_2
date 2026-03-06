@@ -2,7 +2,7 @@ import pandas as pd
 from sklearn.discriminant_analysis import StandardScaler
 from sklearn.model_selection import train_test_split
 from sklearn.neighbors import KNeighborsClassifier
-from sklearn.metrics import accuracy_score
+from sklearn.metrics import accuracy_score, classification_report, balanced_accuracy_score
 import matplotlib.pyplot as plt
 import numpy as np
 import seaborn as sns
@@ -38,6 +38,10 @@ for k in k_vals:
     knn = KNeighborsClassifier(n_neighbors=k, p = best_distance_metric)
     knn.fit(X_train, y_train)
     k_scores.append(knn.score(X_test, y_test))
+
+bestk = max(k_scores)
+print(bestk)
+
 
 plt.figure(figsize = (10,6))
 plt.subplot(1,2,1)
