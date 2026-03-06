@@ -5,13 +5,24 @@ import seaborn as sns
 
 
 df = pd.read_csv("job_placement.csv")
-encodeddf = pd.read_csv("job_placement_encoded_official.csv")
+placeddf = df[df["placement_status"]=="Placed"]
 
 
-sns.countplot(data=df, y="stream", hue="placement_status")
-plt.title("Job Placement Status by Major")
-plt.show()
+categorical_vars = ["gender", "stream", "college_name"]
+num_vars = ["gpa", "age", "years_of_experience"]
 
-sns.boxplot(data = df, x="placement_status", y= "gpa")
-plt.title("Job Placement by GPA")
+for var in categorical_vars:
+    plt.figure(figsize=(10,6))
+    sns.countplot(data=df, y=var, hue="placement_status")
+    plt.title(f"Placement Status by {var}")
+
+for var in num_vars:
+    plt.figure(figsize=(10,6))
+    sns.boxplot(data=df, x = "placement_status", y=var)
+    plt.title(f"Distribution of {var} by Placement Status")
+
+plt.figure(figsize=(10,6))
+sns.boxplot(data=placeddf, x = "placement_status", y="salary")
+plt.title("Salary of Placed Students")
+
 plt.show()
