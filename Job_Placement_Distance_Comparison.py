@@ -32,15 +32,16 @@ for formula in distance_formulas:
 
 best_distance_metric = max(results)
 k_vals = range(1,31)
-k_scores = []
+k_scores = {}
 
 for k in k_vals:
     knn = KNeighborsClassifier(n_neighbors=k, p = best_distance_metric)
     knn.fit(X_train, y_train)
-    k_scores.append(knn.score(X_test, y_test))
+    k_scores[k]=(knn.score(X_test, y_test))
 
-bestk = max(k_scores)
-print(bestk)
+highestaccuracy = max(k_scores.values())
+bestk = next(k for k, value in k_scores.items() if value == highestaccuracy)
+print(f"Best k = {bestk} and accuracy is {highestaccuracy}")
 
 
 plt.figure(figsize = (10,6))
@@ -51,7 +52,7 @@ plt.ylabel('Accuracy')
 plt.ylim(0, 1)
 
 plt.subplot(1, 2, 2)
-plt.plot(k_vals, k_scores, marker='o', color='red')
+plt.plot(k_scores.keys(), k_scores.values(), marker='o', color='red')
 plt.title(f'Optimal K-Value for p = {best_distance_metric}')
 plt.xlabel('K Neighbors')
 plt.ylabel('Accuracy')
